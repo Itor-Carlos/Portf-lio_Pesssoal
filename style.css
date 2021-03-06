@@ -1,0 +1,90 @@
+body{
+
+    background-color: #1C1C1C;
+    color: #C0C0C0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 1100px;
+    height: 700px;    
+    margin: auto;
+}
+
+#section-text{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+#section-text h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#section_paineis{
+    
+}
+
+.section_paineis_up{
+    display: flex;
+    text-align: center;
+}
+.section_paineis_up i{
+    font-size: 45px
+}
+
+.section_paineis_up .paineis{
+    margin-left: 10px;
+    background-color: #4F4F4F;
+}
+
+.section_paineis_up .paineis:last-child{
+    margin-right: 10PX;
+}
+
+
+.section_paineis_back{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+.section_paineis_back i{
+    font-size: 45px
+}
+
+.section_paineis_back .paineis{
+    margin-left: 10px;
+    background-color: #4F4F4F;
+}
+
+.section_paineis_back .paineis:last-child{
+    margin-right: 10PX;
+}
+
+.paineis{
+    height:300px;
+    
+    transition: 1.2s;
+}
+
+.paineis article h3{
+    position: relative;
+    bottom: -50px;
+}
+
+.paineis i{
+    margin-top: 50px;
+}
+
+.paineis article p{
+    opacity: 0.5;
+}
+
+.paineis:hover{
+    background-color: #6A5ACD;
+    color: #FFF;
+    translate: (20px,10px);
+}
